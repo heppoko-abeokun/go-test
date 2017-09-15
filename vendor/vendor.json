@@ -1,0 +1,91 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "IkAYIhxmvTQKEJvclIZJoVh9ats=",
+			"path": "github.com/dgrijalva/jwt-go",
+			"revision": "a539ee1a749a2b895533f979515ac7e6e0f5b650",
+			"revisionTime": "2017-06-08T00:51:49Z"
+		},
+		{
+			"checksumSHA1": "twwPZ13IfbJwiz0Wnhgv9IgjggM=",
+			"path": "github.com/labstack/echo",
+			"revision": "1678da53d65d33464d578ace3d2854b30dfd8e4f",
+			"revisionTime": "2017-09-08T15:48:23Z"
+		},
+		{
+			"checksumSHA1": "/pm1oxdq53SZRZzpa8ztZfDR0UQ=",
+			"path": "github.com/labstack/echo/middleware",
+			"revision": "1678da53d65d33464d578ace3d2854b30dfd8e4f",
+			"revisionTime": "2017-09-08T15:48:23Z"
+		},
+		{
+			"checksumSHA1": "8ulgQ4ebz69LsRQlpokdyTzByWE=",
+			"path": "github.com/labstack/gommon/bytes",
+			"revision": "779b8a8b9850a97acba6a3fe20feb628c39e17c1",
+			"revisionTime": "2017-07-12T19:11:37Z"
+		},
+		{
+			"checksumSHA1": "Yz8nRvgJR9qN9OORCUQKc4eHC7Q=",
+			"path": "github.com/labstack/gommon/color",
+			"revision": "779b8a8b9850a97acba6a3fe20feb628c39e17c1",
+			"revisionTime": "2017-07-12T19:11:37Z"
+		},
+		{
+			"checksumSHA1": "TSGKEmOygv2KxrVtyOsesmGsPxc=",
+			"path": "github.com/labstack/gommon/log",
+			"revision": "779b8a8b9850a97acba6a3fe20feb628c39e17c1",
+			"revisionTime": "2017-07-12T19:11:37Z"
+		},
+		{
+			"checksumSHA1": "1nDjlsmotw5ceWB3SsnOJym1AMY=",
+			"path": "github.com/labstack/gommon/random",
+			"revision": "779b8a8b9850a97acba6a3fe20feb628c39e17c1",
+			"revisionTime": "2017-07-12T19:11:37Z"
+		},
+		{
+			"checksumSHA1": "oxAL6OQU/oXQYUKECdVt+kbzej8=",
+			"path": "github.com/mattn/go-colorable",
+			"revision": "ad5389df28cdac544c99bd7b9161a0b5b6ca9d1b",
+			"revisionTime": "2017-08-16T03:18:13Z"
+		},
+		{
+			"checksumSHA1": "rCNfFpeYqd2Tpi5qOFX8ckaQcMU=",
+			"path": "github.com/mattn/go-isatty",
+			"revision": "fc9e8d8ef48496124e79ae0df75490096eccf6fe",
+			"revisionTime": "2017-03-22T23:44:13Z"
+		},
+		{
+			"checksumSHA1": "x6+Vi9WumwYUrK8ZUmkGLDgOLtc=",
+			"path": "github.com/valyala/bytebufferpool",
+			"revision": "e746df99fe4a3986f4d4f79e13c1e0117ce9c2f7",
+			"revisionTime": "2016-08-17T18:16:52Z"
+		},
+		{
+			"checksumSHA1": "UHztphFBVZKyLNbrMDVPM0VdJ60=",
+			"path": "github.com/valyala/fasttemplate",
+			"revision": "dcecefd839c4193db0d35b88ec65b4c12d360ab0",
+			"revisionTime": "2017-02-24T21:24:29Z"
+		},
+		{
+			"checksumSHA1": "g//nyy0VRVeQkHtxyWMaJL25rPU=",
+			"path": "golang.org/x/crypto/acme",
+			"revision": "b0c9c05bfe149df95eb1d25642162cca051e0466",
+			"revisionTime": "2017-09-15T01:37:37Z"
+		},
+		{
+			"checksumSHA1": "TrKJW+flz7JulXU3sqnBJjGzgQc=",
+			"path": "golang.org/x/crypto/acme/autocert",
+			"revision": "b0c9c05bfe149df95eb1d25642162cca051e0466",
+			"revisionTime": "2017-09-15T01:37:37Z"
+		},
+		{
+			"checksumSHA1": "A+9lemYS6e/BXlyFTsm9CeK5dKU=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "062cd7e4e68206d8bab9b18396626e855c992658",
+			"revisionTime": "2017-09-12T16:19:26Z"
+		}
+	],
+	"rootPath": "go-test"
+}
