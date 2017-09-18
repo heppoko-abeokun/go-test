@@ -1,0 +1,32 @@
+{{define "page1"}}
+<!DOCTYPE html>
+<html lang="jp">
+
+{{template "layout-header"}}
+
+<body>
+    <h1>Hello {{index . "name"}}</h1>
+
+    <p>{{ with $x := index . "reverse" }} {{ call $x "page1" }} &lt;-- this will call the $x with parameter "page1" {{ end }}
+    </p>
+
+    <p>Today is {{ index . "today" }}</p>
+
+    {{template "layout-bottom-script"}}
+</body>
+
+</html>
+{{end}} {{define "form-page"}}
+<!DOCTYPE html>
+<html lang="jp">
+
+{{template "layout-header"}}
+
+<body>
+    <h1>Hello {{index . "user_name"}}</h1>
+
+    <a href="/" class="btn btn-primary">トップへ</a> {{template "layout-bottom-script"}}
+</body>
+
+</html>
+{{end}}

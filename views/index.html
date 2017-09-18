@@ -1,0 +1,33 @@
+{{define "index"}}
+<!DOCTYPE html>
+<html lang="jp">
+
+{{template "layout-header"}}
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h1>あべのGOテスト</h1>
+                <a href="/page1" class="btn btn-primary">ページ遷移</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2>フォーム</h2>
+                <form action="/form-page" method="GET">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">氏名</label>
+                        <input type="text" name="user_name" class="form-control" id="user_name" placeholder="氏名だよ">
+                    </div>
+                    <button type="submit" class="btn btn-primary">送信</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    {{template "layout-bottom-script"}}
+</body>
+
+</html>
+{{end}}
